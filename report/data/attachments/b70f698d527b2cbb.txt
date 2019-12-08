@@ -1,0 +1,2 @@
+[2019-12-07 23:45:28.799324] [INFO] [home_page.py] [enter_recommend] [24] 尝试打开推荐tab页面：
+[2019-12-07 23:45:35.480053] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：推荐

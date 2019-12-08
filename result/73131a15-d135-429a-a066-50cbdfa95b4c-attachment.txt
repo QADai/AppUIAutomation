@@ -1,0 +1,2 @@
+[2019-12-07 23:45:51.167156] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:45:51.370491] [INFO] [home_page.py] [enter_search_page] [38] 尝试开启输入框：

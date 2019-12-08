@@ -1,0 +1,61 @@
+"Status","Name","Duration in ms","Description"
+"passed","AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_search[good-测试小写英文字符good]","17638","
+@Author  : QADai
+@Email   : daibiao83@126.com
+
+
+
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        "
+"passed","AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京123-测试中文和数字混杂]","2830","
+@Author  : QADai
+@Email   : daibiao83@126.com
+
+
+
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        "
+"passed","AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_enter_recommend","28443","
+@Author  : QADai
+@Email   : daibiao83@126.com
+
+
+启动程序，进入推荐tab页面"
+"passed","AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_search[技技术技术技术技术技术技术技术技术技术技术技术技术技术技术术技术-测试较长的英文字符]","2374","
+@Author  : QADai
+@Email   : daibiao83@126.com
+
+
+
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        "
+"passed","AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京Beijing-测试中英文混杂]","3826","
+@Author  : QADai
+@Email   : daibiao83@126.com
+
+
+
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        "
+"failed","AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_enter_not_login","2939","
+@Author  : QADai
+@Email   : daibiao83@126.com
+
+
+查看未登录状态，这个是一个验证测试的实例"
+"passed","AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_search[BAD-测试大写英文字符BAD]","2707","
+@Author  : QADai
+@Email   : daibiao83@126.com
+
+
+
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        "
+"passed","AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_search[中国-测试中文字符]","2790","
+@Author  : QADai
+@Email   : daibiao83@126.com
+
+
+
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        "

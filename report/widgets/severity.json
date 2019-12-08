@@ -1,0 +1,81 @@
+[ {
+  "uid" : "d048c476657b51dd",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京Beijing-测试中英文混杂]",
+  "time" : {
+    "start" : 1575733564008,
+    "stop" : 1575733567834,
+    "duration" : 3826
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f40d0778e69494df",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[技技术技术技术技术技术技术技术技术技术技术技术技术技术技术术技术-测试较长的英文字符]",
+  "time" : {
+    "start" : 1575733561630,
+    "stop" : 1575733564004,
+    "duration" : 2374
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f0f6c042310c934e",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[BAD-测试大写英文字符BAD]",
+  "time" : {
+    "start" : 1575733556125,
+    "stop" : 1575733558832,
+    "duration" : 2707
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8bf4fbf54e4f3a59",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京123-测试中文和数字混杂]",
+  "time" : {
+    "start" : 1575733567838,
+    "stop" : 1575733570668,
+    "duration" : 2830
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8409c4e347573f0c",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[good-测试小写英文字符good]",
+  "time" : {
+    "start" : 1575733538478,
+    "stop" : 1575733556116,
+    "duration" : 17638
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "672a83eacc7f53f",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[中国-测试中文字符]",
+  "time" : {
+    "start" : 1575733558836,
+    "stop" : 1575733561626,
+    "duration" : 2790
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9160c133b602c72c",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_enter_recommend",
+  "time" : {
+    "start" : 1575733507064,
+    "stop" : 1575733535507,
+    "duration" : 28443
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a63884f98240aad9",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_enter_not_login",
+  "time" : {
+    "start" : 1575733535513,
+    "stop" : 1575733538452,
+    "duration" : 2939
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

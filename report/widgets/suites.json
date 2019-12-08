@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "ca8279cc493584fd24e9db98b1b9b63f",
+    "name" : "AppUIAuto.src.testset",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}

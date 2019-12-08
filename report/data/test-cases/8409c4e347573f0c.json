@@ -1,0 +1,88 @@
+{
+  "uid" : "8409c4e347573f0c",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[good-测试小写英文字符good]",
+  "fullName" : "AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_search[good-测试小写英文字符good]",
+  "historyId" : "e72e33079da8af34f33178e5327e93c6",
+  "time" : {
+    "start" : 1575733538478,
+    "stop" : 1575733556116,
+    "duration" : 17638
+  },
+  "description" : "\n@Author  : QADai\n@Email   : daibiao83@126.com\n\n\n\n        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串\n        ",
+  "descriptionHtml" : "<p>@Author  : QADai\n@Email   : daibiao83@126.com</p>\n<pre><code>    从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3bfcaf1a68fb9868",
+      "name" : "用例参数:",
+      "source" : "3bfcaf1a68fb9868.txt",
+      "type" : "text/plain",
+      "size" : 69
+    }, {
+      "uid" : "5283105364ba512a",
+      "name" : "Captured stderr call",
+      "source" : "5283105364ba512a.txt",
+      "type" : "text/plain",
+      "size" : 220
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "主页相关功能测试"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-49A99MM"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "在查询页面输入不同的关键词查询，检查查询功能"
+  }, {
+    "name" : "thread",
+    "value" : "7992-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "testClass",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[good-测试小写英文字符good]"
+  }, {
+    "name" : "package",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8409c4e347573f0c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "a63884f98240aad9",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_enter_not_login",
+  "fullName" : "AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_enter_not_login",
+  "historyId" : "9e39d356523c20b2e31c9cb0180dd732",
+  "time" : {
+    "start" : 1575733535513,
+    "stop" : 1575733538452,
+    "duration" : 2939
+  },
+  "description" : "\n@Author  : QADai\n@Email   : daibiao83@126.com\n\n\n查看未登录状态，这个是一个验证测试的实例",
+  "descriptionHtml" : "<p>@Author  : QADai\n@Email   : daibiao83@126.com</p>\n<p>查看未登录状态，这个是一个验证测试的实例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 点击登录 的值和登录成功的值不相等",
+  "statusTrace" : "self = <AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage object at 0x000000ADF7F24EC8>\n\n    @allure.story('查看未登录状态')\n    @allure.severity(\"Normal\")\n    def test_enter_not_login(self):\n        \"\"\"查看未登录状态，这个是一个验证测试的实例\"\"\"\n        self.HP.enter_not_login_page()\n        # 以下元素直接写入元素是没有对应的page，暂时直接使用\n        login_text = self.driver_action.get_element_text(\"xpath\",\n                                                         \"//android.widget.TextView[@resource-id='com.ss.android.article.lite:id/aj5']\")\n>       Assert.equal(login_text, \"登录成功\", self.driver_action)\n\nsrc\\testset\\test_toutiao_home_page.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'src.utils.define_assert.Assert'>, actual = '点击登录', expect = '登录成功'\nbase_driver = <src.base.driver.Actions object at 0x000000ADF76B3B88>\n\n    @classmethod\n    def equal(cls, actual, expect, base_driver):\n        try:\n>           assert actual == expect, \"{0} 的值和{1}的值不相等\".format(actual, expect)\nE           AssertionError: 点击登录 的值和登录成功的值不相等\n\nsrc\\utils\\define_assert.py:68: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 点击登录 的值和登录成功的值不相等",
+    "statusTrace" : "self = <AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage object at 0x000000ADF7F24EC8>\n\n    @allure.story('查看未登录状态')\n    @allure.severity(\"Normal\")\n    def test_enter_not_login(self):\n        \"\"\"查看未登录状态，这个是一个验证测试的实例\"\"\"\n        self.HP.enter_not_login_page()\n        # 以下元素直接写入元素是没有对应的page，暂时直接使用\n        login_text = self.driver_action.get_element_text(\"xpath\",\n                                                         \"//android.widget.TextView[@resource-id='com.ss.android.article.lite:id/aj5']\")\n>       Assert.equal(login_text, \"登录成功\", self.driver_action)\n\nsrc\\testset\\test_toutiao_home_page.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ncls = <class 'src.utils.define_assert.Assert'>, actual = '点击登录', expect = '登录成功'\nbase_driver = <src.base.driver.Actions object at 0x000000ADF76B3B88>\n\n    @classmethod\n    def equal(cls, actual, expect, base_driver):\n        try:\n>           assert actual == expect, \"{0} 的值和{1}的值不相等\".format(actual, expect)\nE           AssertionError: 点击登录 的值和登录成功的值不相等\n\nsrc\\utils\\define_assert.py:68: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b48660ca4bb47d7",
+      "name" : "app截图__23:45:38_.png",
+      "source" : "7b48660ca4bb47d7.png",
+      "type" : "image/png",
+      "size" : 80231
+    }, {
+      "uid" : "7b9447d1168e249a",
+      "name" : "Captured stderr call",
+      "source" : "7b9447d1168e249a.txt",
+      "type" : "text/plain",
+      "size" : 233
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "主页相关功能测试"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-49A99MM"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "story",
+    "value" : "查看未登录状态"
+  }, {
+    "name" : "thread",
+    "value" : "7992-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "testClass",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_toutiao_home_page.TestTouTiaoHomePage.test_enter_not_login"
+  }, {
+    "name" : "package",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a63884f98240aad9.json",
+  "parameterValues" : [ ]
+}

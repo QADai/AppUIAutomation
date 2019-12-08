@@ -1,0 +1,4 @@
+[2019-12-07 23:45:07.067730] [INFO] [test_toutiao_home_page.py] [setup_class] [22] 初始化 page object homepage >>>
+[2019-12-07 23:45:07.070663] [DEBUG] [driver_engine.py] [drivers] [83] server address is: http://127.0.0.1:4723/wd/hubcurrent server match desire_Caps are below: 
+[2019-12-07 23:45:07.070663] [DEBUG] [driver_engine.py] [drivers] [84] {'automationName': 'uiautomator2', 'platformName': 'Android', 'platformVersion': '6.0.1', 'deviceName': '127.0.0.1:6555', 'newCommandTimeout': 120, 'app': 'C:\\Users\\dai\\Desktop\\sw\\P_prj\\2019\\AppUIAuto\\app\\toutiao.apk', 'appPackage': 'com.ss.android.article.lite', 'appActivity': 'com.ss.android.article.lite.activity.SplashActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'recreateChromeDriverSessions': True}
+[2019-12-07 23:45:28.761197] [INFO] [driver.py] [element_is_displayed] [304] 元素Trueis displayed ?

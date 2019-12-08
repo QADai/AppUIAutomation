@@ -1,0 +1,15 @@
+-
+    automationName: uiautomator2
+    platformName: Android
+    platformVersion: 6.0.1
+    deviceName: 127.0.0.1:6555
+    newCommandTimeout: 120
+    app: C:\Users\dai\Desktop\sw\P_prj\2019\AppUIAuto\app\toutiao.apk
+    appPackage: com.ss.android.article.lite
+    appActivity: com.ss.android.article.lite.activity.SplashActivity
+    resetKeyboard: True
+    unicodeKeyboard: True
+    noReset: True
+    recreateChromeDriverSessions: True
+    ip: 127.0.0.1
+    port: 4723

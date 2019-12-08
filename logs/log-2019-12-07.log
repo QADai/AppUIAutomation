@@ -1,0 +1,69 @@
+﻿[2019-12-07 23:26:17.580570] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:26:18.415417] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:26:18.442790] [INFO] [test_toutiao_home_page.py] [setup_class] [22] 初始化 page object homepage >>>
+[2019-12-07 23:26:18.446699] [DEBUG] [driver_engine.py] [drivers] [83] server address is: http://127.0.0.1:4723/wd/hubcurrent server match desire_Caps are below: 
+[2019-12-07 23:26:18.446699] [DEBUG] [driver_engine.py] [drivers] [84] {'automationName': 'uiautomator2', 'platformName': 'Android', 'platformVersion': '6.0.1', 'deviceName': '127.0.0.1:6555', 'newCommandTimeout': 120, 'app': 'C:\\Users\\dai\\Desktop\\sw\\P_prj\\2019\\AppUIAuto\\app\\toutiao.apk', 'appPackage': 'com.ss.android.article.lite', 'appActivity': 'com.ss.android.article.lite.activity.SplashActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'recreateChromeDriverSessions': True}
+[2019-12-07 23:26:39.807634] [INFO] [driver.py] [element_is_displayed] [304] 元素Trueis displayed ?
+[2019-12-07 23:26:40.070602] [INFO] [home_page.py] [enter_recommend] [23] 尝试打开推荐tab页面：
+[2019-12-07 23:26:41.739318] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：推荐
+[2019-12-07 23:26:45.791355] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：点击登录
+[2019-12-07 23:26:46.043569] [ERROR] [define_assert.py] [equal] [72] 点击登录 的值和登录成功的值不相等
+[2019-12-07 23:26:59.008134] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:26:59.008134] [INFO] [home_page.py] [enter_seach_page] [35] 尝试开启输入框：
+[2019-12-07 23:27:11.131202] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:27:11.131202] [INFO] [home_page.py] [enter_seach_page] [41] 不能找到外层的输入框
+[2019-12-07 23:27:23.353787] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:27:23.353787] [INFO] [home_page.py] [do_search] [51] 不能找到里层的输入框
+[2019-12-07 23:28:40.850599] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:28:41.752899] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:28:41.775382] [INFO] [test_toutiao_home_page.py] [setup_class] [22] 初始化 page object homepage >>>
+[2019-12-07 23:28:41.781247] [DEBUG] [driver_engine.py] [drivers] [83] server address is: http://127.0.0.1:4723/wd/hubcurrent server match desire_Caps are below: 
+[2019-12-07 23:28:41.782225] [DEBUG] [driver_engine.py] [drivers] [84] {'automationName': 'uiautomator2', 'platformName': 'Android', 'platformVersion': '6.0.1', 'deviceName': '127.0.0.1:6555', 'newCommandTimeout': 120, 'app': 'C:\\Users\\dai\\Desktop\\sw\\P_prj\\2019\\AppUIAuto\\app\\toutiao.apk', 'appPackage': 'com.ss.android.article.lite', 'appActivity': 'com.ss.android.article.lite.activity.SplashActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'recreateChromeDriverSessions': True}
+[2019-12-07 23:29:02.212443] [INFO] [driver.py] [element_is_displayed] [304] 元素Trueis displayed ?
+[2019-12-07 23:29:02.238835] [INFO] [home_page.py] [enter_recommend] [23] 尝试打开推荐tab页面：
+[2019-12-07 23:29:04.029749] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：推荐
+[2019-12-07 23:29:07.814909] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：点击登录
+[2019-12-07 23:29:08.092540] [ERROR] [define_assert.py] [equal] [72] 点击登录 的值和登录成功的值不相等
+[2019-12-07 23:29:19.646466] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:29:19.646466] [INFO] [home_page.py] [enter_seach_page] [35] 尝试开启输入框：
+[2019-12-07 23:29:31.743925] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:29:31.743925] [INFO] [home_page.py] [enter_seach_page] [41] 不能找到外层的输入框
+[2019-12-07 23:30:29.624651] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:30:30.465363] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:30:30.515220] [INFO] [test_toutiao_home_page.py] [setup_class] [22] 初始化 page object homepage >>>
+[2019-12-07 23:30:30.526950] [DEBUG] [driver_engine.py] [drivers] [83] server address is: http://127.0.0.1:4723/wd/hubcurrent server match desire_Caps are below: 
+[2019-12-07 23:30:30.527928] [DEBUG] [driver_engine.py] [drivers] [84] {'automationName': 'uiautomator2', 'platformName': 'Android', 'platformVersion': '6.0.1', 'deviceName': '127.0.0.1:6555', 'newCommandTimeout': 120, 'app': 'C:\\Users\\dai\\Desktop\\sw\\P_prj\\2019\\AppUIAuto\\app\\toutiao.apk', 'appPackage': 'com.ss.android.article.lite', 'appActivity': 'com.ss.android.article.lite.activity.SplashActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'recreateChromeDriverSessions': True}
+[2019-12-07 23:30:50.946483] [INFO] [driver.py] [element_is_displayed] [304] 元素Trueis displayed ?
+[2019-12-07 23:30:50.979721] [INFO] [home_page.py] [enter_recommend] [23] 尝试打开推荐tab页面：
+[2019-12-07 23:30:52.372761] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：推荐
+[2019-12-07 23:31:04.202304] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:31:04.202304] [INFO] [home_page.py] [enter_seach_page] [35] 尝试开启输入框：
+[2019-12-07 23:31:52.852169] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:32:23.842112] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:32:24.034706] [ERROR] [define_assert.py] [equal] [72] None 的值和登录成功的值不相等
+[2019-12-07 23:32:24.238031] [INFO] [test_toutiao_home_page.py] [teardown_class] [28] page object homepage 测试结束 <<<
+[2019-12-07 23:40:02.104353] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:40:02.611788] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:40:02.626452] [INFO] [test_toutiao_home_page.py] [setup_class] [22] 初始化 page object homepage >>>
+[2019-12-07 23:40:02.629384] [DEBUG] [driver_engine.py] [drivers] [83] server address is: http://127.0.0.1:4723/wd/hubcurrent server match desire_Caps are below: 
+[2019-12-07 23:40:02.630362] [DEBUG] [driver_engine.py] [drivers] [84] {'automationName': 'uiautomator2', 'platformName': 'Android', 'platformVersion': '6.0.1', 'deviceName': '127.0.0.1:6555', 'newCommandTimeout': 120, 'app': 'C:\\Users\\dai\\Desktop\\sw\\P_prj\\2019\\AppUIAuto\\app\\toutiao.apk', 'appPackage': 'com.ss.android.article.lite', 'appActivity': 'com.ss.android.article.lite.activity.SplashActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'recreateChromeDriverSessions': True}
+[2019-12-07 23:40:24.996259] [INFO] [driver.py] [element_is_displayed] [304] 元素Trueis displayed ?
+[2019-12-07 23:40:25.039273] [INFO] [home_page.py] [enter_recommend] [24] 尝试打开推荐tab页面：
+[2019-12-07 23:40:30.073771] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：推荐
+[2019-12-07 23:40:31.913562] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：点击登录
+[2019-12-07 23:40:32.191192] [ERROR] [define_assert.py] [equal] [72] 点击登录 的值和登录成功的值不相等
+[2019-12-07 23:40:44.913318] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:40:45.132295] [INFO] [home_page.py] [enter_search_page] [38] 尝试开启输入框：
+[2019-12-07 23:41:03.344703] [INFO] [test_toutiao_home_page.py] [teardown_class] [28] page object homepage 测试结束 <<<
+[2019-12-07 23:45:07.044269] [INFO] [data_resources.py] [get_search_data] [16] 读取excel的数据
+[2019-12-07 23:45:07.067730] [INFO] [test_toutiao_home_page.py] [setup_class] [22] 初始化 page object homepage >>>
+[2019-12-07 23:45:07.070663] [DEBUG] [driver_engine.py] [drivers] [83] server address is: http://127.0.0.1:4723/wd/hubcurrent server match desire_Caps are below: 
+[2019-12-07 23:45:07.070663] [DEBUG] [driver_engine.py] [drivers] [84] {'automationName': 'uiautomator2', 'platformName': 'Android', 'platformVersion': '6.0.1', 'deviceName': '127.0.0.1:6555', 'newCommandTimeout': 120, 'app': 'C:\\Users\\dai\\Desktop\\sw\\P_prj\\2019\\AppUIAuto\\app\\toutiao.apk', 'appPackage': 'com.ss.android.article.lite', 'appActivity': 'com.ss.android.article.lite.activity.SplashActivity', 'resetKeyboard': True, 'unicodeKeyboard': True, 'noReset': True, 'recreateChromeDriverSessions': True}
+[2019-12-07 23:45:28.761197] [INFO] [driver.py] [element_is_displayed] [304] 元素Trueis displayed ?
+[2019-12-07 23:45:28.799324] [INFO] [home_page.py] [enter_recommend] [24] 尝试打开推荐tab页面：
+[2019-12-07 23:45:35.480053] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：推荐
+[2019-12-07 23:45:38.001212] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：点击登录
+[2019-12-07 23:45:38.309152] [ERROR] [define_assert.py] [equal] [72] 点击登录 的值和登录成功的值不相等
+[2019-12-07 23:45:51.167156] [DEBUG] [driver.py] [wait_for_element] [178] can't wait for the element, TimeoutException
+[2019-12-07 23:45:51.370491] [INFO] [home_page.py] [enter_search_page] [38] 尝试开启输入框：
+[2019-12-07 23:46:10.669130] [INFO] [test_toutiao_home_page.py] [teardown_class] [28] page object homepage 测试结束 <<<

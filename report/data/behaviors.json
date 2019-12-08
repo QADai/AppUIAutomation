@@ -1,0 +1,117 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "主页相关功能测试",
+    "children" : [ {
+      "name" : "进入推荐页面，检查tab页面内容",
+      "children" : [ {
+        "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_enter_recommend",
+        "uid" : "9160c133b602c72c",
+        "parentUid" : "e0cf5d28507c68314e8580d70b045f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575733507064,
+          "stop" : 1575733535507,
+          "duration" : 28443
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0cf5d28507c68314e8580d70b045f02"
+    }, {
+      "name" : "查看未登录状态",
+      "children" : [ {
+        "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_enter_not_login",
+        "uid" : "a63884f98240aad9",
+        "parentUid" : "dedfa87a0b516f306917bbb455f36815",
+        "status" : "failed",
+        "time" : {
+          "start" : 1575733535513,
+          "stop" : 1575733538452,
+          "duration" : 2939
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dedfa87a0b516f306917bbb455f36815"
+    }, {
+      "name" : "在查询页面输入不同的关键词查询，检查查询功能",
+      "children" : [ {
+        "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[good-测试小写英文字符good]",
+        "uid" : "8409c4e347573f0c",
+        "parentUid" : "bed60608e3bcb6baeaa6518c0b605e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575733538478,
+          "stop" : 1575733556116,
+          "duration" : 17638
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[BAD-测试大写英文字符BAD]",
+        "uid" : "f0f6c042310c934e",
+        "parentUid" : "bed60608e3bcb6baeaa6518c0b605e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575733556125,
+          "stop" : 1575733558832,
+          "duration" : 2707
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[中国-测试中文字符]",
+        "uid" : "672a83eacc7f53f",
+        "parentUid" : "bed60608e3bcb6baeaa6518c0b605e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575733558836,
+          "stop" : 1575733561626,
+          "duration" : 2790
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[技技术技术技术技术技术技术技术技术技术技术技术技术技术技术术技术-测试较长的英文字符]",
+        "uid" : "f40d0778e69494df",
+        "parentUid" : "bed60608e3bcb6baeaa6518c0b605e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575733561630,
+          "stop" : 1575733564004,
+          "duration" : 2374
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京Beijing-测试中英文混杂]",
+        "uid" : "d048c476657b51dd",
+        "parentUid" : "bed60608e3bcb6baeaa6518c0b605e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575733564008,
+          "stop" : 1575733567834,
+          "duration" : 3826
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京123-测试中文和数字混杂]",
+        "uid" : "8bf4fbf54e4f3a59",
+        "parentUid" : "bed60608e3bcb6baeaa6518c0b605e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575733567838,
+          "stop" : 1575733570668,
+          "duration" : 2830
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bed60608e3bcb6baeaa6518c0b605e0f"
+    } ],
+    "uid" : "9d2870758817672498014ef6dae53882"
+  } ]
+}

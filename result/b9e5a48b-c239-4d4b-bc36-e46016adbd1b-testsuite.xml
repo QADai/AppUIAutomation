@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1575733507064" stop="1575733570668">
+  <description>
+@Author  : QADai
+@Email   : daibiao83@126.com
+</description>
+  <name>AppUIAuto.src.testset</name>
+  <labels />
+  <test-cases>
+    <test-case start="1575733507064" status="passed" stop="1575733535507">
+      <description>启动程序，进入推荐tab页面</description>
+      <name>test_toutiao_home_page.TestTouTiaoHomePage.test_enter_recommend</name>
+      <attachments>
+        <attachment source="a337bc22-8a0d-4404-a63a-89eb483e8fe0-attachment.txt" title="Captured stderr setup" type="text/plain" />
+        <attachment source="5e70838c-2ad9-4e85-a827-e1e6b9f18b6a-attachment.txt" title="Captured stderr call" type="text/plain" />
+      </attachments>
+      <labels>
+        <label name="feature" value="主页相关功能测试" />
+        <label name="story" value="进入推荐页面，检查tab页面内容" />
+        <label name="severity" value="critical" />
+        <label name="thread" value="7992-MainThread" />
+        <label name="host" value="DESKTOP-49A99MM" />
+        <label name="framework" value="pytest" />
+        <label name="language" value="cpython3" />
+      </labels>
+      <steps />
+    </test-case>
+    <test-case start="1575733535513" status="failed" stop="1575733538452">
+      <description>查看未登录状态，这个是一个验证测试的实例</description>
+      <name>test_toutiao_home_page.TestTouTiaoHomePage.test_enter_not_login</name>
+      <failure>
+        <message>AssertionError: 点击登录 的值和登录成功的值不相等</message>
+        <stack-trace>self = &lt;AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage object at 0x000000ADF7F24EC8&gt;
+
+    @allure.story('查看未登录状态')
+    @allure.severity("Normal")
+    def test_enter_not_login(self):
+        """查看未登录状态，这个是一个验证测试的实例"""
+        self.HP.enter_not_login_page()
+        # 以下元素直接写入元素是没有对应的page，暂时直接使用
+        login_text = self.driver_action.get_element_text("xpath",
+                                                         "//android.widget.TextView[@resource-id='com.ss.android.article.lite:id/aj5']")
+&gt;       Assert.equal(login_text, "登录成功", self.driver_action)
+
+src\testset\test_toutiao_home_page.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+cls = &lt;class 'src.utils.define_assert.Assert'&gt;, actual = '点击登录', expect = '登录成功'
+base_driver = &lt;src.base.driver.Actions object at 0x000000ADF76B3B88&gt;
+
+    @classmethod
+    def equal(cls, actual, expect, base_driver):
+        try:
+&gt;           assert actual == expect, "{0} 的值和{1}的值不相等".format(actual, expect)
+E           AssertionError: 点击登录 的值和登录成功的值不相等
+
+src\utils\define_assert.py:68: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="369dfd54-814c-4c41-b611-5c85f9e461f5-attachment.png" title="app截图__23:45:38_.png" type="image/png" />
+        <attachment source="5f829943-82d5-420d-8852-ce62fb1bcb74-attachment.txt" title="Captured stderr call" type="text/plain" />
+      </attachments>
+      <labels>
+        <label name="feature" value="主页相关功能测试" />
+        <label name="story" value="查看未登录状态" />
+        <label name="severity" value="Normal" />
+        <label name="thread" value="7992-MainThread" />
+        <label name="host" value="DESKTOP-49A99MM" />
+        <label name="framework" value="pytest" />
+        <label name="language" value="cpython3" />
+      </labels>
+      <steps />
+    </test-case>
+    <test-case start="1575733538478" status="passed" stop="1575733556116">
+      <description>
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        </description>
+      <name>test_toutiao_home_page.TestTouTiaoHomePage.test_search[good-测试小写英文字符good]</name>
+      <attachments>
+        <attachment source="1632a87c-50e8-482b-9b2c-c731eb88a604-attachment.txt" title="用例参数:" type="text/plain" />
+        <attachment source="73131a15-d135-429a-a066-50cbdfa95b4c-attachment.txt" title="Captured stderr call" type="text/plain" />
+      </attachments>
+      <labels>
+        <label name="feature" value="主页相关功能测试" />
+        <label name="story" value="在查询页面输入不同的关键词查询，检查查询功能" />
+        <label name="severity" value="blocker" />
+        <label name="thread" value="7992-MainThread" />
+        <label name="host" value="DESKTOP-49A99MM" />
+        <label name="framework" value="pytest" />
+        <label name="language" value="cpython3" />
+      </labels>
+      <steps />
+    </test-case>
+    <test-case start="1575733556125" status="passed" stop="1575733558832">
+      <description>
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        </description>
+      <name>test_toutiao_home_page.TestTouTiaoHomePage.test_search[BAD-测试大写英文字符BAD]</name>
+      <attachments>
+        <attachment source="e17b1de9-c6a2-4a71-bb21-21d94ea2513e-attachment.txt" title="用例参数:" type="text/plain" />
+      </attachments>
+      <labels>
+        <label name="feature" value="主页相关功能测试" />
+        <label name="story" value="在查询页面输入不同的关键词查询，检查查询功能" />
+        <label name="severity" value="blocker" />
+        <label name="thread" value="7992-MainThread" />
+        <label name="host" value="DESKTOP-49A99MM" />
+        <label name="framework" value="pytest" />
+        <label name="language" value="cpython3" />
+      </labels>
+      <steps />
+    </test-case>
+    <test-case start="1575733558836" status="passed" stop="1575733561626">
+      <description>
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        </description>
+      <name>test_toutiao_home_page.TestTouTiaoHomePage.test_search[中国-测试中文字符]</name>
+      <attachments>
+        <attachment source="bfc6e870-6807-4cf3-a62c-336329721d4f-attachment.txt" title="用例参数:" type="text/plain" />
+      </attachments>
+      <labels>
+        <label name="feature" value="主页相关功能测试" />
+        <label name="story" value="在查询页面输入不同的关键词查询，检查查询功能" />
+        <label name="severity" value="blocker" />
+        <label name="thread" value="7992-MainThread" />
+        <label name="host" value="DESKTOP-49A99MM" />
+        <label name="framework" value="pytest" />
+        <label name="language" value="cpython3" />
+      </labels>
+      <steps />
+    </test-case>
+    <test-case start="1575733561630" status="passed" stop="1575733564004">
+      <description>
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        </description>
+      <name>test_toutiao_home_page.TestTouTiaoHomePage.test_search[技技术技术技术技术技术技术技术技术技术技术技术技术技术技术术技术-测试较长的英文字符]</name>
+      <attachments>
+        <attachment source="9a603b67-1909-4f0c-8582-c539f6cd87ce-attachment.txt" title="用例参数:" type="text/plain" />
+      </attachments>
+      <labels>
+        <label name="feature" value="主页相关功能测试" />
+        <label name="story" value="在查询页面输入不同的关键词查询，检查查询功能" />
+        <label name="severity" value="blocker" />
+        <label name="thread" value="7992-MainThread" />
+        <label name="host" value="DESKTOP-49A99MM" />
+        <label name="framework" value="pytest" />
+        <label name="language" value="cpython3" />
+      </labels>
+      <steps />
+    </test-case>
+    <test-case start="1575733564008" status="passed" stop="1575733567834">
+      <description>
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        </description>
+      <name>test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京Beijing-测试中英文混杂]</name>
+      <attachments>
+        <attachment source="064ccf96-bc10-4f6a-a7c0-de9f4134767e-attachment.txt" title="用例参数:" type="text/plain" />
+      </attachments>
+      <labels>
+        <label name="feature" value="主页相关功能测试" />
+        <label name="story" value="在查询页面输入不同的关键词查询，检查查询功能" />
+        <label name="severity" value="blocker" />
+        <label name="thread" value="7992-MainThread" />
+        <label name="host" value="DESKTOP-49A99MM" />
+        <label name="framework" value="pytest" />
+        <label name="language" value="cpython3" />
+      </labels>
+      <steps />
+    </test-case>
+    <test-case start="1575733567838" status="passed" stop="1575733570668">
+      <description>
+        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串
+        </description>
+      <name>test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京123-测试中文和数字混杂]</name>
+      <attachments>
+        <attachment source="bdedebc0-d20b-4e70-9c2a-2fe71cc39138-attachment.txt" title="用例参数:" type="text/plain" />
+      </attachments>
+      <labels>
+        <label name="feature" value="主页相关功能测试" />
+        <label name="story" value="在查询页面输入不同的关键词查询，检查查询功能" />
+        <label name="severity" value="blocker" />
+        <label name="thread" value="7992-MainThread" />
+        <label name="host" value="DESKTOP-49A99MM" />
+        <label name="framework" value="pytest" />
+        <label name="language" value="cpython3" />
+      </labels>
+      <steps />
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

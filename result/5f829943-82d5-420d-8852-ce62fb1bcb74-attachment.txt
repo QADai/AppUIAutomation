@@ -1,0 +1,2 @@
+[2019-12-07 23:45:38.001212] [INFO] [driver.py] [get_element_text] [250] 得到元素的text值是：点击登录
+[2019-12-07 23:45:38.309152] [ERROR] [define_assert.py] [equal] [72] 点击登录 的值和登录成功的值不相等

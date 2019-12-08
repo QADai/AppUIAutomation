@@ -1,0 +1,82 @@
+{
+  "uid" : "d048c476657b51dd",
+  "name" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京Beijing-测试中英文混杂]",
+  "fullName" : "AppUIAuto.src.testset.test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京Beijing-测试中英文混杂]",
+  "historyId" : "44abed236d83b5bd5034aa4ee8fec6bd",
+  "time" : {
+    "start" : 1575733564008,
+    "stop" : 1575733567834,
+    "duration" : 3826
+  },
+  "description" : "\n@Author  : QADai\n@Email   : daibiao83@126.com\n\n\n\n        从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串\n        ",
+  "descriptionHtml" : "<p>@Author  : QADai\n@Email   : daibiao83@126.com</p>\n<pre><code>    从excel表格中提取搜索的关键词，搜索并且检查标题中是否包含相应的字符串\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af8c2797cad4cb64",
+      "name" : "用例参数:",
+      "source" : "af8c2797cad4cb64.txt",
+      "type" : "text/plain",
+      "size" : 71
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "主页相关功能测试"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-49A99MM"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "在查询页面输入不同的关键词查询，检查查询功能"
+  }, {
+    "name" : "thread",
+    "value" : "7992-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "testClass",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_toutiao_home_page.TestTouTiaoHomePage.test_search[北京Beijing-测试中英文混杂]"
+  }, {
+    "name" : "package",
+    "value" : "AppUIAuto.src.testset"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d048c476657b51dd.json",
+  "parameterValues" : [ ]
+}
